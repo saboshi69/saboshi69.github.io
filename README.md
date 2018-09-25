@@ -18,11 +18,11 @@ This site is built by basic HTML, CSS & JS. A basic HTML DOM model is used:
 *Features:*
   - Placed at the leftside of the web
   - Brief introduction of myself 
-  - Using Div to sperate each blocks
+  - Using Div to separate each blocks
 
 ### Aside
 *Features:*
-  - A conatiner for my gallery
+  - A container for my gallery
   - JS is used to built the gallery:
  ```
     for (i = 0; i < slides.length; i++) {
