@@ -49,13 +49,16 @@ aside {
 
 .smallSlide {
     border-radius: 3px;
+    cursor: pointer;
     width: 23%;
     opacity: 0.6;
+  
 }
 
 .active,
 .smallSlide:hover {
     opacity: 1;
+   
 }
 
 

@@ -11,15 +11,20 @@ rightBtn[0].addEventListener("click", turnRight);
 var smallSlides = document.getElementsByClassName("smallSlide");
 
 
-/* I dont know why but fuction dosent feel me
-smallSlides[0].addEventListener("click", currentSlide(1));
-smallSlides[1].addEventListener("click", currentSlide(2));
-smallSlides[2].addEventListener("click", currentSlide(3));
-smallSlides[3].addEventListener("click", currentSlide(4));
+
+for(var i=0;i<smallSlides.length;i++) {
+    smallSlides[i].addEventListener("click", currentSlide.bind(null, i+1));
+}
+
 
 function currentSlide(n) {
-    showSlides(slidesIndex = n);
-} */
+    slidesIndex = n;
+    showSlides(slidesIndex);
+}
+
+
+
+
 
 
 
