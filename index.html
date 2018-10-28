@@ -19,8 +19,8 @@
 
 <body>
     <!--fixed nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" id="title-name" href="#">Samuel</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id='nav'>
+        <a class="navbar-brand" id="title-name" href="#Home">Samuel</a>
         <!--dropdown when small browser-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -44,16 +44,19 @@
         </div>
     </nav>
 
+    <!--parallax-bg" data-bgurl="/asset/img/bg02.png" -->
 
-    <div class="jumbotron jumbotron-fluid wel-bg parallax-bg" data-bgurl="/asset/img/bg02.png" id="Home">
-        <div class="container welcome">
-            <h1 class="display-3 text-center">Samuel Hui</h1>
-            <p class="lead text-center">Full Stack Developer</p>
-            <div class=" text-center wel-icons">
-                <a href="#Contact"><i class="fab fa-facebook-square"></i></a>
-                <a href="#Contact"><i class="far fa-envelope"></i></a>
-                <a href="#Contact"><i class="fab fa-whatsapp-square"></i></a>
+    <div id="particles-js">
+        <div class="jumbotron jumbotron-fluid wel-bg" id="Home">
+            <div class="container welcome">
+                <h1 class="display-3 text-center">Samuel Hui</h1>
+                <p class="lead text-center">Full Stack Developer</p>
+                <div class=" text-center wel-icons">
+                    <a href="#Contact"><i class="fab fa-facebook-square contactIcon"></i></a>
+                    <a href="#Contact"><i class="far fa-envelope contactIcon"></i></a>
+                    <a href="#Contact"><i class="fab fa-github-square contactIcon"></i></a>
 
+                </div>
             </div>
         </div>
     </div>
@@ -217,7 +220,8 @@
 
     <footer class="bg-light">
         <br />
-        <p class="text-center" id="Contact"> <a href="">Email</a> | <a href="">Facebook</a> | <a href="">Whatsapp</a> | <a href="">Linkedin</a> </p>
+        <p class="text-center" id="Contact"> <a href="">Email</a> | <a href="">Facebook</a> | <a href="">Whatsapp</a> |
+            <a href="">Linkedin</a> </p>
         <br>
     </footer>
 
@@ -230,7 +234,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="/js/parascroll.js-master/parascroll.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/particle.js"></script>
     <script src="/js/control.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
